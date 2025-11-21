@@ -1,12 +1,8 @@
-# 交管12123 Home Assistant Integration
+# 12123 Home Assistant Integration
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 
-Home Assistant 自定义集成，用于集成交管12123服务。
-
-## 关于
-
-交管12123是中华人民共和国公安部交通管理局推出的官方交通管理服务平台，提供交通违法查询、驾驶证业务、机动车业务等服务。
+Home Assistant 自定义集成，用于集成12123服务。
 
 ## 安装
 
