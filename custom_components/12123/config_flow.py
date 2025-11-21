@@ -172,7 +172,7 @@ class MySensorConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                         _LOGGER.debug(f"QR查询响应代码: {code}")
 
                         if code == "201":
-                            errors["base"] = ERROR_MESSAGES.get("please_scan", "请使用交管12123手机App扫描二维码，然后点击提交按钮")
+                            errors["base"] = ERROR_MESSAGES.get("please_scan", "请使用12123手机App扫描二维码，然后点击提交按钮")
                             return self._show_next_form(errors)
                         elif code == "200":
                             self.url = result.get('url')
@@ -230,7 +230,7 @@ class MySensorConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                                         await self._cleanup_session()
 
                                         # 创建配置条目
-                                        title = f"交管12123 ({self._selected_province} - {account_name})"
+                                        title = f"12123 ({self._selected_province} - {account_name})"
                                         return self.async_create_entry(
                                             title=title,
                                             data={
@@ -314,7 +314,7 @@ class MySensorConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         if self._img_base64:
             img_html = (
                 f"![12123登录二维码](data:image/png;base64,{self._img_base64})\n\n"
-                "**请使用交管12123手机App扫描上方二维码完成登录。**\n\n"
+                "**请使用12123手机App扫描上方二维码完成登录。**\n\n"
                 "扫描完成后点击下方“提交”按钮。"
             )
         else:

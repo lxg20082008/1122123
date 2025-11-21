@@ -2,7 +2,7 @@
   "config": {
     "step": {
       "user": {
-        "title": "设置交管12123",
+        "title": "设置12123",
         "description": "请选择您所在的省份",
         "data": {
           "province": "省份"
@@ -30,7 +30,7 @@
   "options": {
     "step": {
       "init": {
-        "title": "交管12123配置",
+        "title": "12123配置",
         "description": "配置12123集成选项"
       }
     }

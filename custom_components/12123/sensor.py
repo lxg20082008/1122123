@@ -200,9 +200,9 @@ async def async_setup_entry(
     # 创建设备信息
     device_info = DeviceInfo(
         identifiers={(DOMAIN, f"{entry.entry_id}_{province_code}")},
-        name=f"交管12123 ({account_name})",
+        name=f"12123 ({account_name})",
         manufacturer="Shaobor丶",
-        model=f"交管12123 ({province_code.upper()}省)",
+        model=f"12123 ({province_code.upper()}省)",
         sw_version="1.0.0"
     )
 

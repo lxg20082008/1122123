@@ -1,4 +1,4 @@
-"""12123 交管系统集成."""
+"""12123 系统集成."""
 import logging
 from typing import Final, Any, Dict
 
