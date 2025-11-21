@@ -1,0 +1,27 @@
+rules:
+  # Bronze (mandatory)
+  config-flow: done
+  entity-unique-id: done
+  action-setup:
+    status: exempt
+    comment: Integration does not register custom actions.
+
+  # Silver (if targeting Silver+)
+  entity-unavailable: done
+  parallel-updates: done
+
+  # Gold (if targeting Gold+)
+  devices:
+    status: exempt
+    comment: Integration is service-based with DeviceInfo for logical grouping.
+  diagnostics:
+    status: done
+    comment: Implemented async_get_config_entry_diagnostics with data redaction.
+
+  # Platinum (if targeting Platinum)
+  strict-typing:
+    status: done
+  async-dependencies:
+    status: done
+  websession-injection:
+    status: done

@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "设置交管12123",
+        "description": "请选择您所在的省份",
+        "data": {
+          "province": "省份"
+        }
+      },
+      "next": {
+        "title": "扫码登录",
+        "description": "请使用手机扫描上方二维码完成登录，然后点击提交"
+      }
+    },
+    "error": {
+      "invalid_response": "服务器响应格式错误",
+      "connection_error": "网络连接错误，请检查网络",
+      "server_error": "服务器错误，请稍后重试",
+      "unknown_error": "未知错误",
+      "no_image_data": "未获取到二维码图片",
+      "session_lost": "会话丢失，请重新配置",
+      "incomplete_auth": "认证信息不完整，请重试",
+      "please_scan": "请扫描二维码",
+      "second_request_failed": "第二次请求失败",
+      "second_request_error": "第二次请求异常",
+      "no_redirect_url": "未获取到重定向URL"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "交管12123配置",
+        "description": "配置12123集成选项"
+      }
+    }
+  }
+}

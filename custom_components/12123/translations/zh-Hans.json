@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "选择所在省份",
+        "description": "{msg}",
+        "data": {
+          "province": "请选择省份"
+        }
+      },
+      "next": {
+        "title": "请扫描二维码",
+        "description": "{msg}"
+      }
+    },
+    "error": {}
+  }
+}
