@@ -1,0 +1,9 @@
+{
+  "name": "12123",
+  "render_readme": true,
+  "domains": [
+    "12123"
+  ],
+  "homeassistant": "2023.1.0",
+  "iot_class": "cloud_polling"
+}
