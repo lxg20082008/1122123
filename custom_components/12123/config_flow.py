@@ -19,7 +19,7 @@ from .const import (
 _LOGGER = logging.getLogger(__name__)
 
 
-class MySensorConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     VERSION = 1
     MINOR_VERSION = 1
     _selected_province: Optional[str] = None
